@@ -47,3 +47,5 @@ cat << EOF > $dirPath$filename
 EOF
 echo "$dirPath$filename has been created."
 cat $dirPath$filename
+echo "Launching Firefox..."
+firefox $dirPath$filename
